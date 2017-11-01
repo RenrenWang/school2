@@ -3,17 +3,22 @@
       <NavBar leftIcon="icon-caidan" @leftActive="toScan()" fixed="true" logo="./static/images/home_title.png" />
       <main class="main">
        <Carousel  paginationActiveColor="#fff"  :paginationPadding=3  :paginationSize=6  paginationColor="#dbdbdb" :perPage=1>
-        <slide>
-           <img src="../../../assets/images/about.jpg"/>
+       
+        <slide  >
+          <img src="http://120.26.85.17/gisapp/appimages/home/home_1.jpg"/>
         </slide>
-         <slide>
-           <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496648326676&di=eb823b3bf317b9300368e52313448779&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F29381f30e924b899549c524b6f061d950a7bf625.jpg"/>
+        
+         <slide  >
+          <img src="http://120.26.85.17/gisapp/appimages/home/home_2.jpg"/>
         </slide>
-         <slide>
-          <img src="../../../assets/images/about.jpg"/>
+         <slide  >
+          <img src="http://120.26.85.17/gisapp/appimages/home/home_3.jpg"/>
         </slide>
-         <slide>
-           <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496648326676&di=eb823b3bf317b9300368e52313448779&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F29381f30e924b899549c524b6f061d950a7bf625.jpg"/>
+        <slide  >
+          <img src="http://120.26.85.17/gisapp/appimages/home/home_4.jpg"/>
+        </slide>
+         <slide  >
+          <img src="http://120.26.85.17/gisapp/appimages/home/home_5.jpg"/>
         </slide>
     </Carousel>
  

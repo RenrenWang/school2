@@ -36,7 +36,7 @@ export default {
       console.log(centerY);
         var map = new BMap.Map("allmap");
         var point = new BMap.Point(centerX,centerY);
-        map.centerAndZoom(point, 15);
+        map.centerAndZoom(point, 18);
         // 编写自定义函数,创建标注
         function addMarker(point,str){
           var marker = new BMap.Marker(point);
